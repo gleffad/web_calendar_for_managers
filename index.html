@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript" src="./js/ajax.js"></script>
+		<script type="text/javascript" src="./js/js_verif.js"></script>
+
+	</head>
+	<body>
+		<div id="societe">
+			<label id="labelnom"></label>
+			<button id="deco">deconection</button>
+		</div>
+
+		<div class="selector">
+			<SELECT id="select1" onchange="nom(this)"></SELECT>
+			<button id="buttonplus">+</button>
+			<button id="buttonsupp">-</button>
+		</div>
+		<fieldset>
+			<legend>Ajouter un créneau</legend> 
+			<form>
+				<label>Nom </label>
+				<input type="text" placeholder="Nom" name="" id="nom" disabled=""><br/>
+				<label>Prénom</label>
+				<input type="text" placeholder="Prénom" name="" id="prenom" disabled=""><br/>
+				<label>Date</label>
+				<input type="Date" name="" id="date"><br/>
+				<fieldset>
+					<legend>Plage horaire</legend>
+					<label>Heure de début</label>
+					<input type="time" id="heure_debut" name="appt" required onchange="verif_heure(this)">
+					<br/>
+					<label>Heure de fin</label>
+					<input type="time" id="heure_fin" name="appt" required onchange="verif_heure(this)">
+		 <br/><br/>	
+		 <span id="alert"></span>
+				</fieldset>
+			</form>
+			<button id="ajouter_btn"> valider</button>
+		</fieldset>
+		</div>
+		<div id="creneau"></div>
+		<div id="ics">
+			<button id="ics">ICS</button>
+		</div>
+	</body>
+	<script type="text/javascript" src="./js/main.js"></script>
+</html>

@@ -1,0 +1,136 @@
+
+
+label
+{
+	display: inline-block;
+	width: 200px;
+}
+
+button
+{   display: block;
+    width: 100px;
+    margin: auto;
+}
+
+input:focus
+{
+  	border-color: green;
+}
+
+fieldset
+{
+	margin:auto;
+ 	padding-left: 20px;
+ 	padding-top: 10px;
+ 	margin-bottom:10px;
+ 	border:1px transparent green;
+ 	width: 500px;
+}
+
+input, select
+{
+    border:1px solid #ccc;
+    width:200px;
+    min-height:27px;    
+    margin-bottom:5px;
+    margin-top:3px;
+    outline: none;
+    border-radius:3px;
+}
+
+input[type=submit], select
+{
+    background:none;
+    padding:8px;
+    cursor: pointer;
+}
+
+#alert
+{
+	font-size: 12px;
+}
+
+.maclasse
+{
+    margin-top: 5px;
+    border:1px solid black;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.maclasse button
+{
+    margin-top:1px;
+    float: right;
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    margin-right: 25px;
+}
+
+div .maclasse{
+    margin-bottom: 10px;
+    background-color: #C0C0C0;
+}
+
+.maclasse:hover{
+    background-color: #008080;
+
+}
+
+#select1
+{
+    margin:auto;
+    width: 30%;
+    display:inline-block;
+
+}
+
+#buttonsupp
+{
+    float:left;
+    margin-left:1%;
+    width: 30px;
+	background:#ff0000;
+}
+
+#buttonplus
+{
+    float:left;
+    margin-left:31%;
+    width: 30px;
+	background:#00FF00;
+}
+
+
+#societe{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 50px;
+    width: 15%;
+    border-style: solid;
+    display: block;
+
+}
+
+
+#ICS button{
+    display: block;
+    margin:auto;
+}
+
+#societe label{
+    display: block;
+    margin:auto;
+    font-size: 1.2vw;
+}
+
+#societe button{
+    display: block;
+    margin:auto;
+    margin-top:3px;
+    background: #ff0000;
+}
+
+
